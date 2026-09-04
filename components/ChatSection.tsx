@@ -191,10 +191,15 @@ export function ChatSection({
             <h2 className="text-sm font-bold text-stone-900">
               {lang === 'hi' ? 'आयुर्वेद आईपीआर एवं विनियामक चैट सहायक' : 'Grounded IPR & Regulatory Assistant'}
             </h2>
-            <div className="flex items-center gap-2 text-[11px] text-stone-500 font-medium">
+            <div className="flex flex-wrap items-center gap-2 text-[11px] text-stone-500 font-medium">
               <span>{t.activeCategory} <strong className="text-emerald-800">{currentCategory}</strong></span>
               <span>•</span>
               <span>{t.jurisdictionLabel} <strong className="text-blue-800">{jurisdiction}</strong></span>
+              <span>•</span>
+              <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
+                <CheckCircle2 className="w-2.5 h-2.5 text-emerald-600" />
+                {lang === 'hi' ? 'मॉक मोड सक्रिय (शून्य दर सीमा)' : 'Mock Mode Active (Zero Rate Limits)'}
+              </span>
             </div>
           </div>
         </div>

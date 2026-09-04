@@ -1,14 +1,29 @@
 # IP-SAKTI Sahayak (आईपी-शक्ति सहायक)
 
 ### Intellectual Property & Statutory Ayurveda Knowledge Tool for Innovation
-**A Grounded Decision-Support System for Ayurveda IPR, Patentability Assessment, Access & Benefit Sharing (ABS), and Regulatory Classification**
+**A 100% Open Public Resource & Decision-Support System for Ayurveda IPR, Patentability Clarification, Access & Benefit Sharing (ABS), and Regulatory Guidance**
 
-[![Smart India Hackathon 2026](https://img.shields.io/badge/SIH-2026-emerald.svg)](https://sih.gov.in)
+[![Smart India Hackathon 2026](https://img.shields.io/badge/SIH-2026_Open_Hackathon-emerald.svg)](https://sih.gov.in)
+[![Public Domain / Unpatented](https://img.shields.io/badge/Status-100%25_Public_Resource_•_Unpatented-blue.svg)](#-public-resource--open-hackathon-declaration)
+[![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg)](LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-15.4-black.svg?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue.svg?logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38bdf8.svg?logo=tailwind-css)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-amber.svg)](LICENSE)
+[![Bilingual](https://img.shields.io/badge/Language-English_•_हिन्दी-teal.svg)](#)
+
+---
+
+## 📢 Public Resource & Open Hackathon Declaration
+
+> ### 🟢 ZERO PROPRIETARY CLAIMS • NOTHING IS PATENTED • 100% OPEN PUBLIC GOOD
+>
+> This project was developed as an open submission for the **Smart India Hackathon (SIH)**. 
+> 
+> **Explicit Open Resource Affirmations:**
+> - **Nothing is Patented:** No component, software algorithm, workflow, dataset, or output of IP-SAKTI Sahayak is patented, filed for patent protection, or treated as proprietary intellectual property.
+> - **Public Domain Traditional Knowledge:** We unequivocally affirm that India's codified Ayurvedic knowledge (spanning the *Charaka Samhita*, *Sushruta Samhita*, *Ashtanga Hridaya*, and classical AYUSH texts) belongs in perpetuity to the sovereign public domain and the common heritage of humanity. It cannot and should not be privatized or monopolized.
+> - **Freely Accessible Digital Public Good:** The entire codebase, legal decision-support logic, statutory rule models, and translation dictionaries are open source under the permissive **MIT License**. Anyone—especially students, grassroots Vaidyas, rural Ayurvedic cooperatives, MSME manufacturers, and academic researchers—may inspect, fork, modify, deploy, and build upon this work freely without royalties or licensing fees.
+> - **Exclusively Grounded in Public Government Records:** All statutory provisions and legal rules are derived strictly from official public domain repositories published by the Government of India (India Code, IP India/CGPDTM guidelines, CSIR Traditional Knowledge Digital Library public notices, National Biodiversity Authority gazettes, and FSSAI notifications).
 
 ---
 
@@ -16,36 +31,36 @@
 
 India possesses over 5,000 years of codified formulation science across the AYUSH systems (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Sowa-Rigpa). With increasing worldwide interest in plant-derived medicines, botanical pharmaceuticals, and dietary supplements, researchers, grassroots innovators, and Ayurvedic drug manufacturers (Vaidyas and MSMEs) face a convoluted web of domestic and international patent laws, anti-biopiracy treaties, and biodiversity mandates.
 
-Commercializing Ayurvedic research entails navigating four formidable systemic barriers:
+Navigating Ayurvedic innovation entails understanding four critical systemic barriers:
 
-1. **The Statutory Patentability Bars:**
-   - **Section 3(p) of the Patents Act, 1970:** Bars inventions that are essentially traditional knowledge or an aggregation/duplication of known properties of traditionally known components.
-   - **Section 3(e) of the Patents Act, 1970:** Prohibits mere admixtures that result only in the aggregation of properties without demonstrably synergistic therapeutic enhancement.
+1. **Statutory Patentability Exclusions in Indian Law:**
+   - **Section 3(p) of the Patents Act, 1970:** Specifically excludes inventions that are essentially traditional knowledge or an aggregation/duplication of known properties of traditionally known components.
+   - **Section 3(e) of the Patents Act, 1970:** Prohibits mere admixtures resulting only in the aggregation of properties without demonstrably synergistic therapeutic enhancement.
    - **Section 3(d) of the Patents Act, 1970:** Restricts patenting of new forms or derivatives of known substances without significant improvement in therapeutic efficacy.
-   - **International Standards:** Foreign patent filings regularly encounter strict rejections under **US 35 U.S.C. 101** (*Mayo/Alice* natural products doctrine) and **EPO Article 53/54/56** due to prior art documented in India's Traditional Knowledge Digital Library (TKDL).
+   - **International Dimensions:** Global filings face strict prior-art hurdles at the USPTO (35 U.S.C. 101/102/103) and EPO (Article 53/54/56) due to prior art documented in India's Traditional Knowledge Digital Library (TKDL).
 
 2. **Regulatory Classification Disconnect:**
-   - Determining whether a formulation falls under:
-     1. *Classical Ayurvedic Medicine* (First Schedule authorized texts, Drugs & Cosmetics Act 1940)
+   - Innovators struggle to discern whether a formulation qualifies as:
+     1. *Classical Ayurvedic Medicine* (First Schedule authorized treatises, Drugs & Cosmetics Act 1940)
      2. *Ayurvedic Proprietary Medicine* (Section 3(a), Drugs & Cosmetics Act 1940)
      3. *Phytopharmaceutical Drug* (Rule 122E / New Drugs & Clinical Trials Rules 2019, CDSCO)
      4. *Ayurveda Aahar* (FSSAI AYUSH Regulations 2022)
      5. *Ayurvedic Cosmetic* (Drugs & Cosmetics Rules Part XIII)
      6. *Novel Drug Delivery System (NDDS) / Botanical Drug* (Chemical & pharmaceutical patent regime)
 
-3. **Access & Benefit Sharing (ABS) & Criminal Penalties:**
-   - Under the **Biological Diversity Act, 2002** (as amended in 2023), non-Indian entities or Indian companies with foreign equity/management must obtain mandatory prior approval from the **National Biodiversity Authority (NBA)** under Section 3 / Form I before accessing Indian biological resources, and under Section 6 / Form III before applying for patents. Non-compliance entails severe statutory liabilities.
+3. **Access & Benefit Sharing (ABS) & Criminal Liabilities:**
+   - Under the **Biological Diversity Act, 2002** (amended 2023), non-Indian entities or Indian companies with foreign equity/management must obtain mandatory prior approval from the **National Biodiversity Authority (NBA)** under Section 3 / Form I before accessing Indian biological resources, and under Section 6 / Form III before applying for patents. Non-compliance entails severe statutory penalties.
 
-4. **Hallucination Risk in Conventional AI:**
-   - General-purpose language models frequently invent fake patent section numbers, hallucinate non-existent case laws, and confuse food regulations with pharmaceutical licenses.
+4. **Hallucination Risk in Generic AI:**
+   - Conventional LLMs regularly invent fictitious patent sections, hallucinate case law, or confuse food regulations with pharmaceutical licenses.
 
-**IP-SAKTI Sahayak** solves this challenge through an **"Evidence Before Fluency"** architecture: combining deterministic legal decision trees with grounded dual-tier Retrieval-Augmented Generation (RAG) tied directly to authentic government databases and codified statutes.
+**IP-SAKTI Sahayak** solves this challenge through an **"Evidence Before Fluency"** architecture: combining deterministic statutory decision trees with grounded dual-tier Retrieval-Augmented Generation (RAG) tied directly to authentic government databases and codified statutes.
 
 ---
 
 ## 🏛️ Authoritative Open Public Datasets & Legal Sources
 
-The system's legal knowledge base is compiled strictly from verified, open public repositories:
+The system's legal knowledge base is compiled strictly from verified, open public repositories published by the Government of India and international IP bodies:
 
 | Dataset / Repository | Governing Authority | Canonical Domain | Role in System Architecture |
 | :--- | :--- | :--- | :--- |
@@ -53,6 +68,7 @@ The system's legal knowledge base is compiled strictly from verified, open publi
 | **Statutes & Rules (India Code)** | Ministry of Law and Justice, GoI | [`indiacode.nic.in`](https://indiacode.nic.in) | Full codified legal texts of The Patents Act 1970, Drugs & Cosmetics Act 1940, Biological Diversity Act 2002, and FSSAI Regulations. |
 | **IP India Public Portals** | Office of CGPDTM, DPIIT, MoCI | [`ipindia.gov.in`](https://ipindia.gov.in) | Guidelines for Patent Applications in Traditional Knowledge, InPASS patent search protocols, Trademark NICE classes, and GI Registry provisions. |
 | **National Biodiversity Authority (NBA)** | Ministry of Environment, Forest & Climate Change | [`nbaindia.org`](https://nbaindia.org) | Access & Benefit Sharing (ABS) guidelines, Form I/III application workflows, State Biodiversity Board (SBB) intimations, and fee levy schedules. |
+| **Food Safety and Standards Authority of India (FSSAI)** | Ministry of Health & Family Welfare | [`fssai.gov.in`](https://fssai.gov.in) | Food Safety and Standards (Ayurveda Aahar) Regulations, 2022, Schedule A permissible botanical ingredients, and labeling mandates. |
 
 ---
 
@@ -65,13 +81,13 @@ The system's legal knowledge base is compiled strictly from verified, open publi
   Structured questionnaire evaluating textual citations, active ingredients, processing methods, and intended use to route formulations to one of 6 statutory categories.
 
 - **🌿 ABS Compliance Wizard:**
-  Evaluates entity ownership (Indian MSME vs. foreign equity/NRI), biological resource origin, and utilization intent to determine whether NBA Form I, Form III, or State Biodiversity Board (SBB) intimation is required.
+  Evaluates entity ownership (Indian MSME vs. foreign equity/NRI), biological resource origin, and utilization intent to determine whether NBA Form I, Form III, or State Biodiversity Board (SBB) intimation is required under the Biological Diversity Act.
 
 - **📚 TKDL & Prior Art Explainer:**
   Interactive module distinguishing patentable innovations (purified synergistic extracts, novel delivery vehicles, synthetic derivatives) from statutorily excluded matter (classical formulations, mere admixtures under Section 3(e)).
 
 - **🔍 Interactive Citation Inspector Drawer:**
-  Allows users and patent examiners to click any citation badge (`[MOCK-IN-001]`, etc.) to view the complete statutory excerpt, legal summary, applicability parameters, and authoritative source URLs.
+  Allows users and examiners to click any citation badge (`[MOCK-IN-001]`, etc.) to view the complete statutory excerpt, legal summary, applicability parameters, and authoritative source URLs.
 
 - **🚨 Safe Abstention & Facilitator Escalation:**
   Triggers a protective abstention when user inquiries fall outside Ayurvedic IPR scope, providing a one-click referral brief generator for the AYUSH Patent Facilitation Cell or certified patent attorneys.
@@ -80,7 +96,7 @@ The system's legal knowledge base is compiled strictly from verified, open publi
   Full parity between English and Hindi (हिन्दी) across all classification questionnaires, guidance screens, and legal citations.
 
 - **🎯 Scripted Presentation Demo Scenarios:**
-  Built-in 1-click test scenarios covering key use cases for rapid evaluation:
+  Built-in 1-click test scenarios covering key use cases for rapid evaluation during hackathon demonstrations:
   1. *Classical Triphala Churna* (Section 3(p) traditional knowledge exclusion)
   2. *Synergistic Polyherbal Extract* (Section 3(e) synergism validation)
   3. *Novel Nano-Curcumin Topical Gel* (Patentable NDDS formulation)
@@ -205,7 +221,7 @@ cp .env.example .env.local
 Populate the required keys:
 
 ```env
-# Optional: Google Gemini API Key for synthesis (server-side only)
+# Optional: Google Gemini API Key for server-side synthesis
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
@@ -331,12 +347,24 @@ For a rapid, zero-friction demonstration during review sessions, five determinis
 
 ---
 
-## 📄 License
+## 📄 License & Public Access
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License
+Copyright (c) 2026 IP-SAKTI Sahayak Project Team (Smart India Hackathon 2026)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files, to deal in the Software
+without restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies...
+```
+
+All statutory texts, regulatory schedules, and historical case summaries cited in this project originate from the public domain of the Government of India.
 
 ---
 
 <div align="center">
-  <sub>Developed for Smart India Hackathon (SIH) 2026 • Dedicated to the ethical stewardship and innovation of Indian Traditional Medicine.</sub>
+  <sub>Developed for Smart India Hackathon (SIH) 2026 • Dedicated to Open Science, Public Digital Goods, and Ethical Stewardship of Indian Traditional Medicine.</sub>
 </div>

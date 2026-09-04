@@ -60,8 +60,14 @@ export function Header({
                   <span className="font-bold text-lg text-stone-900 tracking-tight">
                     {t.appTitle}
                   </span>
-                  <span className="bg-emerald-100 text-emerald-800 text-[11px] font-semibold px-2 py-0.5 rounded-full">
-                    SIH 2026 MVP
+                  <span
+                    id="system-prototype-badge"
+                    className="bg-amber-100 text-amber-900 border border-amber-300/80 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider shadow-2xs"
+                  >
+                    Prototype
+                  </span>
+                  <span className="hidden sm:inline-block bg-emerald-100 text-emerald-800 text-[11px] font-semibold px-2 py-0.5 rounded-full">
+                    SIH 2026
                   </span>
                 </div>
                 <p className="text-xs text-stone-500 font-medium">

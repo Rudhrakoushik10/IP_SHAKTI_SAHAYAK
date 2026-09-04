@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import { DisclaimerBanner } from '@/components/DisclaimerBanner';
 import { Header } from '@/components/Header';
 import { DashboardView } from '@/components/DashboardView';
 import { ClassificationWorkflow } from '@/components/ClassificationWorkflow';
@@ -55,10 +54,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-stone-100/60 text-stone-900 flex flex-col font-sans antialiased selection:bg-emerald-100 selection:text-emerald-900">
-      {/* 1. Mandatory Disclaimer Banner (PRD Evidence-Before-Fluency Guardrail) */}
-      <DisclaimerBanner lang={lang} />
-
-      {/* 2. Unified Header & Navigation Bar */}
+      {/* 1. Unified Header & Navigation Bar */}
       <Header
         lang={lang}
         onLanguageChange={setLang}
@@ -151,11 +147,11 @@ export default function HomePage() {
         jurisdiction={jurisdiction}
       />
 
-      {/* 6. Footer with SIH 2026 Presentation MVP Attributions */}
+      {/* 6. Footer with SIH 2026 Presentation Prototype Attributions */}
       <footer className="border-t border-stone-200 bg-white py-6 text-xs text-stone-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <div>
-            <span className="font-bold text-stone-800">IP-SAKTI Sahayak</span> — Smart India Hackathon 2026 Presentation MVP
+            <span className="font-bold text-stone-800">IP-SAKTI Sahayak</span> — Smart India Hackathon 2026 Presentation Prototype
             <p className="text-[11px] text-stone-400 mt-0.5">
               Developed for AI-assisted Ayurveda IPR and Regulatory Decision Support.
             </p>
