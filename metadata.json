@@ -1,0 +1,7 @@
+{
+  "name": "IP-SAKTI Sahayak",
+  "description": "Multilingual, source-cited AI assistant for Ayurveda Intellectual Property Rights (IPR) and regulatory guidance for Smart India Hackathon 2026 Presentation MVP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
